@@ -1,1 +1,4 @@
-console.log('poo2')
+import createDivs from './firstLoad';
+
+createDivs()
+
