@@ -1,11 +1,13 @@
-
 const content = document.getElementById('content')
 
 const createTabs = function (){
 
+    let label = ['Home', 'Menu', 'Contact']
     const tabContainer = document.createElement('div')
     tabContainer.setAttribute('id','tabContainer')
 
+   
+    
     const tabHome = document.createElement('div')
     tabHome.textContent = "Home"
     tabHome.setAttribute('id', 'tab');

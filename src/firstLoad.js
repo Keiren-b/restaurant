@@ -1,6 +1,6 @@
-import Icon from '/Users/keirenbrandt-sawdy/repos/javascript_pathway/restaurant/dist/icon.jpg'
-import Icon2 from '/Users/keirenbrandt-sawdy/repos/javascript_pathway/restaurant/dist/icon2.jpeg'
-import Icon3 from '/Users/keirenbrandt-sawdy/repos/javascript_pathway/restaurant/dist/icon3.jpeg'
+
+import Icon from '/Users/keirenbrandt-sawdy/repos/javascript_pathway/restaurant/src/icon.png'
+import Icon2 from '/Users/keirenbrandt-sawdy/repos/javascript_pathway/restaurant/src/icon2.png'
 
 import clearDivs from './clear'
 import createTabs from './tabs'
@@ -12,7 +12,7 @@ const createDivs = function (){
 
 
     const header = document.createElement('h1')
-    header.textContent = 'POOO Welcome to the Paws Club'
+    header.textContent = 'Welcome to the Paws Club'
 
     const who = document.createElement('h2')
     who.textContent = "Who Are We?"
@@ -25,9 +25,9 @@ const createDivs = function (){
     intro.setAttribute('id', 'intro')
 
        
-    const myIcon3 = new Image();
-    myIcon3.src = Icon3;
-    myIcon3.setAttribute('id', 'img1')
+    const myIcon = new Image();
+    myIcon.src = Icon;
+    myIcon.setAttribute('id', 'img1')
 
 
 
@@ -39,7 +39,7 @@ const createDivs = function (){
     content.appendChild(header)
     content.appendChild(who)
     content.appendChild(container)
-    container.appendChild(myIcon3);
+    container.appendChild(myIcon);
     container.appendChild(intro)
     container.appendChild(myIcon2);
     
