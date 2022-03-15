@@ -1,0 +1,87 @@
+
+
+body {
+    background: burlywood;
+}
+
+#content {
+    color: red;
+    font-family: 'MyFont' ;
+
+}
+
+h1,
+h2 {
+text-align: center;
+
+}
+
+h1 {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+h2 {
+    margin: 0px;
+}
+/* 
+.img {
+    max-width: 300px;
+    max-height: auto;
+} */
+
+.container {
+    display: flex;
+    justify-content: center;
+    max-height: 500px;
+    min-width: auto;
+    margin: 50px;
+    
+
+}
+
+#tabContainer {
+    color: blue;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 25%;
+    margin-right: 25%;
+
+}
+
+#tab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 75px;
+    border: solid 1px black
+
+}
+
+#img1,
+#img2 {
+    height: 150px;
+    width: auto;
+    padding: 16px
+}
+
+
+#img2 {
+    margin-top: 100px;
+
+}
+
+#intro {
+    max-width: 300px;
+    font-size: 24px;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 50%;
+    padding-top: 40px;
+ 
+}
+
+#attrDiv{
+    font-size: 12px;
+}

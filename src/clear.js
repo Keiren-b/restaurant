@@ -8,4 +8,3 @@ while(content.firstChild){
 }    
 
 export default clearDivs
-

@@ -12,7 +12,7 @@ const createDivs = function (){
 
 
     const header = document.createElement('h1')
-    header.textContent = 'Welcome to the Paws Club'
+    header.textContent = 'POOO Welcome to the Paws Club'
 
     const who = document.createElement('h2')
     who.textContent = "Who Are We?"

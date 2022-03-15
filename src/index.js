@@ -21,4 +21,3 @@ addClick()
 
 export default addClick
 
-
